@@ -1,0 +1,14 @@
+git status 
+git init
+git add "<filename>"/ git add . (For all files)
+git commit [-m (for a title message)]
+git config --global user.email "you@example.com" (First Time)
+git config --global user.name "Your Name" (First Time)
+git log (Record of all changes)
+git diff (View the last change made)
+git diff id1 id2 (View the changes between any two commits)
+
+git remote add <Repository Name> <Remote Repository Link> (Add RR)
+git remote (View all RR linked to this project)
+git remote -v (Verbose/ View RR Link)
+git push -u origin master (First time)
